@@ -1,0 +1,103 @@
+.divize {
+    //background-color: #484848;
+    //background-color: #cccccc;
+    background-color: #d2d0d0;
+    height: 100vh;
+    width: 100%;
+    z-index: 30;
+    
+}
+.under {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 30;
+    padding-top: 42vh;
+    
+}
+.skills{
+    z-index: 36;
+    font-family: 'condensed-j';
+    color: #d0d0d0;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+.text{
+    font-size: 115px;
+    color: #c8c8c8;
+    z-index: 40;
+    position: absolute; 
+    top: 23vh;  
+}
+.dovednost {
+    
+    position: relative;
+}
+
+.contact{
+    z-index: 35;
+    color: #d2d2d2;
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+.contactp {
+    
+    
+    font-family: 'condensed-j';
+    font-size: 30px;
+    padding:1.05rem 65px;
+    
+}
+.contactpp {
+    
+    border-radius: 1000px;
+    
+    border:3px solid rgba(255, 255, 255, 0);
+    padding:1.05rem 6.1rem;
+    margin: 0rem 3rem;
+    font-family: 'condensed-j';
+    font-size: 30px;
+    position: relative;
+
+}
+
+
+
+
+
+
+.rectangle{
+    position: absolute;
+    width: 57vw;
+    height: auto;
+    top: -4vh;
+    left: 23vw;
+    
+}
+.ellipse{
+    position: absolute;
+    top: 35vh;
+    width: 100vw;
+}
+
+@font-face {
+    font-family: 'condensed-j';
+    src: url('../../../public/images/ClashDisplay-Light.otf');
+  }
+  .j-font3 {
+    font-family: 'condensed-j';
+  }
+  @font-face {
+    font-family: 'condensed-j2';
+    src: url('../../../public/images/ClashDisplay-Regular.otf');
+  }
+  .j-font4 {
+    font-family: 'condensed-j2';
+  }
+
+.img{
+    position: absolute;
+}
+

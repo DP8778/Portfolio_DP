@@ -1,0 +1,34 @@
+.roundedButton {
+    border-radius: 50em;
+    border: 4px solid rgb(34, 33, 33);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 200px;
+    font-size: 3.5rem;
+    position: relative;
+  
+    .text {
+      display: flex; // Potřebné pro animaci jednotlivých písmen
+      gap: 2px; // Mezery mezi písmeny
+    }
+  
+    .letter {
+      display: inline-block;
+      color: #000; // Původní barva textu
+      transition: color 0.2s ease; // Základní přechod
+    }
+  
+    .image {
+      position: absolute;
+      top: 50%; // Upravit dle potřeby
+      left: 78%; // Posun za text
+      transform: translateY(-50%);
+      opacity: 0; // Výchozí hodnota
+      transition: opacity 0.5s ease; // Přechod opacity
+      height: 50px; // Velikost obrázku
+      width: auto;
+    }
+  }
+  
